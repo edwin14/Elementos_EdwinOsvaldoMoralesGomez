@@ -4,12 +4,22 @@
  * and open the template in the editor.
  */
 
-package com.edwin.webotra;
+package com.registro.model;
 
 /**
  *
  * @author T107
  */
-public class CuentaCredito {
+public class Persona {
+    
+    private Perro perro;
+
+    public Perro getPerro() {
+        return perro;
+    }
+
+    public void setPerro(Perro perro) {
+        this.perro = perro;
+    }
     
 }
