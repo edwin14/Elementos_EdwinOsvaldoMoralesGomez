@@ -34,10 +34,11 @@ public class ServletRegistro extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-        Perro perro=new Perro();
-        perro.setNombre("kukis");
-        Persona p=new Persona();
-        p.setPerro(perro);
+       Mascota mascota=new Gato();
+        
+       Persona p=new Persona();
+       p.setMascota(mascota);
+        
         request.setAttribute("registro", p);
         RequestDispatcher despachador= request.getRequestDispatcher("/registro.jsp");
         despachador.forward(request, response);

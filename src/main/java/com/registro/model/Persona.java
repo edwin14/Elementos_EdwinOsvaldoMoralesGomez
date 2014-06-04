@@ -3,14 +3,16 @@ package com.registro.model;
 
 public class Persona {
     
-    private Perro perro;
+  private Mascota mascota;
 
-    public Perro getPerro() {
-        return perro;
+    public Mascota getMascota() {
+        return mascota;
     }
 
-    public void setPerro(Perro perro) {
-        this.perro = perro;
+    public void setMascota(Mascota mascota) {
+        this.mascota = mascota;
     }
+  
+  
     
 }
