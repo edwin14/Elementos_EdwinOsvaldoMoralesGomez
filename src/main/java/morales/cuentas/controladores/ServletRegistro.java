@@ -6,6 +6,8 @@
 
 package morales.cuentas.controladores;
 
+import com.registro.model.Gato;
+import com.registro.model.Mascota;
 import com.registro.model.Perro;
 import com.registro.model.Persona;
 import java.io.IOException;
